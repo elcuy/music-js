@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/lib/skeleton.css">
+  <link rel="stylesheet" href="assets/css/lib/custom.css">
+
+  <title>Web MIDI API</title>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="row">
+      <div class="twelve columns">
+        <a class="button prev" href="index.html">Previous</a>
+        <a class="button next" href="02.html">Next</a>
+      </div>
+    </div>
+
+    <hr />
+    
+    <div class="row">
+      <div class="twelve columns">
+        <h2>Simple Web MIDI API example</h2>
+
+        <div class="row">
+          <div class="six columns">
+            <h4>MIDI inputs</h4>
+            <ul id='inputs'></ul>
+          </div>
+          <div class="six columns">
+            <h4>MIDI outputs</h4>
+            <ul id='outputs'></ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="twelve columns">
+            <h4>Inbound MIDI messages</h4>
+            <div class="row">
+              <div class="three columns">
+                <div id="messages" class="message-container">
+                  <ul></ul>
+                </div>
+              </div>
+              <div class="nine columns">
+                <div id="notes" class="message-container">
+                  <ul></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/lib/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/common/constants.js"></script>
+  <script src="assets/js/pages/01.js"></script>
+
+</body>
+</html>

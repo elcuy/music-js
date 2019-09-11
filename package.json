@@ -1,0 +1,22 @@
+{
+  "name": "music-js",
+  "version": "1.0.0",
+  "description": "Music.js - Examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elcuy/music-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elcuy/music-js/issues"
+  },
+  "homepage": "https://github.com/elcuy/music-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
